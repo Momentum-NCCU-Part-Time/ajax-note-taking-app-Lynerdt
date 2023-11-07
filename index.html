@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Notes</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="main.js" defer></script>
+    <title>Notes</title>
+  </head>
+  <body>
+    <h1>Create Note</h1>
+  <form>
+      <div class="title">Title</div>
+    <input type="text" id="title"></input>
+    <div class="body">Body</div>
+    <input type="text" id="body"></input>
+    <button>Submit</button>
+  </form>
+
+
+    <form id="editForm" class="hidden">
+      <h2>Edit Form is Visible</h2>
+      <input type="text" />
+      <button type="submit">Save</button>
+    </form>
+    <div id="container"></div>
+  </body>
 </html>
